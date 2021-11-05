@@ -4,7 +4,7 @@ console.log(myKm);
 let myAge = parseInt(prompt('inserisci la tua età'));
 console.log(myAge);
 
-let prezzo = myKm * 0.21;
+let prezzo = (parseFloat(myKm * 0.21)).toFixed(2);
 console.log(prezzo);
 
 let sconto = 0;
@@ -16,5 +16,5 @@ if (myAge > 65){
 }
 console.log(sconto);
 
-let prezzoFinale = prezzo - sconto.toFixed(2)
+let prezzoFinale = (parseFloat (prezzo - sconto)).toFixed(2);
 console.log(prezzoFinale);
