@@ -16,5 +16,5 @@ if (myAge > 65){
 }
 console.log(sconto);
 
-let prezzoFinale = prezzo - sconto 
+let prezzoFinale = prezzo - sconto.toFixed(2)
 console.log(prezzoFinale);
