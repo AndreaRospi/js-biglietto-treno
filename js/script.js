@@ -6,3 +6,5 @@ console.log(myAge);
 
 let prezzo = myKm * 0.21;
 console.log(prezzo);
+
+let sconto = 
